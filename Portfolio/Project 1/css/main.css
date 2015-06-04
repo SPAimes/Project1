@@ -1,0 +1,59 @@
+* {
+    border: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px) {
+p {
+    display: none;
+}
+
+}
+
+.grid {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    max-width: 800px;
+    width: 100%;
+
+}
+
+h1 {
+    text-align: right;
+}
+
+h4 {
+    text-align: right;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-1 {
+    width: 33.33%;
+}
+
+.col-2 {
+    width: 66.66%;
+}
+
+.col-3 {
+    width: 99.99%;
+}
+
+.col-3-img {
+    width: 99.99%;
+    padding-left: 20px;
+    padding-right: 20px
+
+}
